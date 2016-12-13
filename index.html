@@ -1,1 +1,106 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>boo.ep</title><link rel="stylesheet" href="Resources/SampleStyle.css" /></head><body><h1 id="documentTitle">boo.ep</h1><p id="documentMetadata">Exported at: Sat Nov 19 2016 16:49:47 GMT+0100 (ora solare Europa occidentale)</p><div class="Page" id="home_page"><h2>Home</h2><div class="ImageContainer"><img width="380" height="743" src="pages/home.png" usemap="#map_home" /></div><map name="map_home"><area shape="rect" coords="196.18333435058594,525.25,341.1999969482422,578.25" href="#profilo_page" title="Go to page 'Profilo'" /><area shape="rect" coords="45.18333435058594,441.25,190.1999969482422,503.25" href="#cerca_enigma_page" title="Go to page 'Cerca enigma'" /><area shape="rect" coords="45.18333435058594,525.25,190.1999969482422,578.25" href="#opzioni_page" title="Go to page 'Opzioni'" /><area shape="rect" coords="196.18333435058594,443.25,341.1999969482422,504.25" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" /></map></div><div class="Page" id="profilo_page"><h2>Profilo</h2><div class="ImageContainer"><img width="380" height="743" src="pages/profilo.png" usemap="#map_profilo" /></div><map name="map_profilo"><area shape="rect" coords="108,528,262,569" href="#classifica_page" title="Go to page 'Classifica'" /><area shape="rect" coords="36,167,86,197" href="#home_page" title="Go to page 'Home'" /></map></div><div class="Page" id="classifica_page"><h2>Classifica</h2><div class="ImageContainer"><img width="380" height="743" src="pages/classifica.png" usemap="#map_classifica" /></div><map name="map_classifica"><area shape="rect" coords="42,165,92,195" href="#profilo_page" title="Go to page 'Profilo'" /></map></div><div class="Page" id="cerca_sfidante_page"><h2>Cerca sfidante</h2><div class="ImageContainer"><img width="380" height="743" src="pages/cerca_sfidante.png" usemap="#map_cerca_sfidante" /></div><map name="map_cerca_sfidante"><area shape="rect" coords="54,473,332,518" href="#riepilogo_partite_page" title="Go to page 'Riepilogo partite'" /><area shape="rect" coords="53,375,331,420" href="#sfide_in_corso_page" title="Go to page 'Sfide in corso'" /><area shape="rect" coords="54,276,332,321" href="#enigma_page" title="Go to page 'Enigma'" /><area shape="rect" coords="34.5,164.5,102.5,194.5" href="#home_page" title="Go to page 'Home'" /></map></div><div class="Page" id="enigma_page"><h2>Enigma</h2><div class="ImageContainer"><img width="380" height="743" src="pages/enigma.png" usemap="#map_enigma" /></div><map name="map_enigma"><area shape="rect" coords="45,159,95,189" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" /></map></div><div class="Page" id="cerca_enigma_page"><h2>Cerca enigma</h2><div class="ImageContainer"><img width="380" height="743" src="pages/cerca_enigma.png" usemap="#map_cerca_enigma" /></div><map name="map_cerca_enigma"><area shape="rect" coords="37.23333740234375,160.1666717529297,87.25,190.18333435058594" href="#home_page" title="Go to page 'Home'" /></map></div><div class="Page" id="opzioni_page"><h2>Opzioni</h2><div class="ImageContainer"><img width="380" height="743" src="pages/opzioni.png" usemap="#map_opzioni" /></div><map name="map_opzioni"><area shape="rect" coords="45,161,95,191" href="#home_page" title="Go to page 'Home'" /></map></div><div class="Page" id="sfide_in_corso_page"><h2>Sfide in corso</h2><div class="ImageContainer"><img width="380" height="743" src="pages/sfide_in_corso.png" usemap="#map_sfide_in_corso" /></div><map name="map_sfide_in_corso"><area shape="rect" coords="40.23333740234375,160.38333129882812,90.25,190.39999389648438" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" /></map></div><div class="Page" id="riepilogo_partite_page"><h2>Riepilogo partite</h2><div class="ImageContainer"><img width="380" height="743" src="pages/riepilogo_partite.png" usemap="#map_riepilogo_partite" /></div><map name="map_riepilogo_partite"><area shape="rect" coords="39,160,89,190" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" /></map></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Prototipo HCI</title><link rel="stylesheet" href="Resources/SampleStyle.css" />
+</head>
+<body>
+	<h1 id="documentTitle"><center>UNIgma</center></h1>
+	<div class="Page" id="home_page">
+		<h2>Home</h2>
+		<div class="ImageContainer">
+			<img width="380" height="743" src="pages/home.png" usemap="#map_home" />
+		</div>
+		<map name="map_home">
+			<area shape="rect" coords="196.18333435058594,525.25,341.1999969482422,578.25" href="#profilo_page" title="Go to page 'Profilo'" />
+			<area shape="rect" coords="45.18333435058594,441.25,190.1999969482422,503.25" href="#cerca_enigma_page" title="Go to page 'Cerca enigma'" />
+			<area shape="rect" coords="45.18333435058594,525.25,190.1999969482422,578.25" href="#opzioni_page" title="Go to page 'Opzioni'" />
+			<area shape="rect" coords="196.18333435058594,443.25,341.1999969482422,504.25" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" />
+		</map>
+	</div>
+	
+	<div class="Page" id="profilo_page">
+		<h2>Profilo</h2>
+		<div class="ImageContainer">
+			<img width="380" height="743" src="pages/profilo.png" usemap="#map_profilo" />
+		</div>
+		<map name="map_profilo">
+			<area shape="rect" coords="108,528,262,569" href="#classifica_page" title="Go to page 'Classifica'" />
+			<area shape="rect" coords="36,167,86,197" href="#home_page" title="Go to page 'Home'" />
+		</map>
+		</div>
+		
+		<div class="Page" id="classifica_page">
+			<h2>Classifica</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/classifica.png" usemap="#map_classifica" />
+			</div>
+			<map name="map_classifica">
+				<area shape="rect" coords="42,165,92,195" href="#profilo_page" title="Go to page 'Profilo'" />
+			</map>
+		</div>
+		
+		<div class="Page" id="cerca_sfidante_page">
+			<h2>Cerca sfidante</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/cerca_sfidante.png" usemap="#map_cerca_sfidante" />
+			</div>
+			<map name="map_cerca_sfidante">
+				<area shape="rect" coords="54,473,332,518" href="#riepilogo_partite_page" title="Go to page 'Riepilogo partite'" />
+				<area shape="rect" coords="53,375,331,420" href="#sfide_in_corso_page" title="Go to page 'Sfide in corso'" />
+				<area shape="rect" coords="54,276,332,321" href="#enigma_page" title="Go to page 'Enigma'" />
+				<area shape="rect" coords="34.5,164.5,102.5,194.5" href="#home_page" title="Go to page 'Home'" />
+			</map>
+		</div>
+		
+		<div class="Page" id="enigma_page">
+			<h2>Enigma</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/enigma.png" usemap="#map_enigma" />
+			</div>
+			<map name="map_enigma">
+				<area shape="rect" coords="45,159,95,189" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" />
+			</map>
+		</div>
+		
+		<div class="Page" id="cerca_enigma_page">
+			<h2>Cerca enigma</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/cerca_enigma.png" usemap="#map_cerca_enigma" />
+			</div>
+			<map name="map_cerca_enigma">
+				<area shape="rect" coords="37.23333740234375,160.1666717529297,87.25,190.18333435058594" href="#home_page" title="Go to page 'Home'" />
+			</map>
+		</div>
+		
+		<div class="Page" id="opzioni_page">
+			<h2>Opzioni</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/opzioni.png" usemap="#map_opzioni" />
+			</div>
+			<map name="map_opzioni">
+				<area shape="rect" coords="45,161,95,191" href="#home_page" title="Go to page 'Home'" />
+			</map>
+		</div>
+		
+		<div class="Page" id="sfide_in_corso_page">
+			<h2>Sfide in corso</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/sfide_in_corso.png" usemap="#map_sfide_in_corso" />
+			</div>
+			<map name="map_sfide_in_corso">
+				<area shape="rect" coords="40.23333740234375,160.38333129882812,90.25,190.39999389648438" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" />
+			</map>
+		</div>
+			
+		<div class="Page" id="riepilogo_partite_page">
+			<h2>Riepilogo partite</h2>
+			<div class="ImageContainer">
+				<img width="380" height="743" src="pages/riepilogo_partite.png" usemap="#map_riepilogo_partite" />
+			</div>
+			<map name="map_riepilogo_partite">
+				<area shape="rect" coords="39,160,89,190" href="#cerca_sfidante_page" title="Go to page 'Cerca sfidante'" />
+			</map>
+		</div>
+	</body>
+</html>
