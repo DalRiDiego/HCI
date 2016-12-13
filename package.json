@@ -1,0 +1,26 @@
+{
+  "name": "hci",
+  "version": "1.0.0",
+  "description": "prototipo HCI",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DalRiDiego/HCI.git"
+  },
+  "keywords": [
+    "HCI",
+    "prototipo",
+    "prototype",
+    "project"
+  ],
+  "author": "TheATeam",
+  "license": "ISC"
+}
